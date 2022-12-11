@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url(../fonts/Barlow-Regular.ttf);
+}
+@font-face {
+    font-family:  'Fraunces 9pt';
+    src: url(../fonts/Fraunces_9pt-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+header{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 999999;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+.list__item-link{
+    margin-right: 32px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+}
+.link--{
+    margin-right: 0;
+}
+.hero{
+   
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  background-image: url(../imges/Bitmap.jpg);
+  background-repeat: no-repeat;
+  margin-bottom: 136px;
+  
+}
+.hero-1{
+
+    padding-top: 117px;
+    padding-left: 85px;
+    padding-right: 712px;
+    padding-bottom: 117px;
+}
+.hero__title{
+
+max-width: 495px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+}
+.hero__text{
+max-width: 455px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+margin-top: 32px;
+margin-bottom: 56px;
+}
+.hero__btn{
+background: #0E8784;
+border-radius: 6px;
+padding: 15px 31px;
+border: none;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+border: 1px solid transparent;
+}
+.hero__btn:hover{
+    background-color: #f8f8f8;
+    transition: all 2s ease;
+    border: 1px solid #0E8784;
+    color: #0E8784;
+}
+.hero-2{
+    background-image: url(../imges/coffe.png);
+    width: 1111px;
+    margin: 0 auto;
+    height: 196px;
+    padding-top: 262px;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 1) 0%, #FEFCF7 100%);
+}
+.hero-2{
+  position: relative;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 385px;
+ 
+
+}
+.coffe{
+    opacity: 0.3;
+}
+.hero--2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 262px;
+    
+   
+
+
+}
+.hero-2__item{
+    width: 255px;
+    
+}
+.hero-2__item__title{
+
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #333D4B;
+margin-top: 71px;
+margin-bottom: 24px;
+}
+.hero-2__item__text{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #333D4B;
+
+
+}
+.hero-3{
+    background-image: url(../imges/Bitmap.png);
+    background-repeat: no-repeat;
+    margin-top: 177px;
+   
+   
+}
+.hero-3__title{
+
+    padding-top: 100px;
+    margin-bottom: 32px;
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #FEFCF7;
+}
+
+.hero-3__text{
+    width: 545px;
+    margin: 0 auto;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+padding-bottom: 317px;
+}
+.hero__content{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+.hero-3__card{
+   
+    background: #0E8784;
+border-radius: 8px;
+width: 350px;
+
+}
+.hero-3__card:hover{
+    background: #090f0f;
+   transition: all 1s ease;
+}
+
+.p1{
+    position: absolute;
+    left: 85px;
+    top: -230px;
+}
+.p2{
+    position: absolute;
+    top: -230px;
+    left: 465px;
+}
+.p3{
+    position: absolute;
+    top: -230px;
+     right: 85px;
+     padding-bottom: 20px;
+}
+.card__img{
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    margin-bottom: 56px;
+}
+
+.card__title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #FEFCF7;
+
+}
+.card__title:hover{
+    color: #0E8784;
+    transition: all 1s ease;
+}
+
+.card__text{
+    max-width: 255px;
+   margin: 0 auto;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #FEFCF7;
+margin-top: 24px;
+margin-bottom: 48px;
+}
+.card__text:hover{
+    color: #0E8784;
+    transition: all 1s ease;
+}
+.hero-4__title{
+    padding-top: 100px;
+    margin-bottom: 80px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+.hero-4__leni{
+    width: 780px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 67px;
+}
+.leni{
+    display: block;
+   
+}
+.oval{
+    display: block;
+}
+.hero-4__img{
+    position: absolute;
+    top:13px;
+    left:7px;
+
+}
+.hero-5-0{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1150px;
+    margin-bottom: 64px;
+}
+.hero-5{
+    max-width: 255px;
+}
+.hero-5__leni{
+    
+    display: block;
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FDD6BA;
+
+}
+.hero-5__title{
+    max-width: 255px;
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+margin-bottom: 42px;
+margin-top: 38px;
+}
+.hero-5__text{
+    max-width: 285px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+}
+.btn{
+    margin-bottom: 200px;
+}
+footer{
+    background: #2C343E;
+    padding: 47px 0;
+}
+.footer{
+  display: flex;
+}
+.foter{
+    margin-left: 173px;
+    margin-right: 450px;
+}
+.logo--1{
+    margin: 0 24px;
+}
