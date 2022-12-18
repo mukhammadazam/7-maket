@@ -60,7 +60,7 @@ nav {
 }
 
 .header {
-    background-image: url(../imges/Object.png);
+    background-image: url(../imges/1xqahva.png);
     padding: 137px 85px;
 }
 
@@ -91,7 +91,7 @@ only screen and ( min-device-pixel-ratio: 2),
 only screen and ( min-resolution: 192dpi),
 only screen and ( min-resolution: 2dppx) {
     .header {
-        background-image: url(../imges/Object@2x.png);
+        background-image: url(../imges/2x\ begronud.png);
     }
     .hero-top {
         background-image: url(../imges/Bitm2x.png);
@@ -239,4 +239,21 @@ footer {
 
 .logo7 {
     margin: 0 24px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: rgb(11, 8, 8);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(63, 63, 65);
+    border-radius: 2px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(5, 15, 5);
 }

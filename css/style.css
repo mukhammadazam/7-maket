@@ -121,7 +121,6 @@ header {
 }
 
 .hero-2 {
-    background-image: url(../imges/coffe.png);
     width: 1111px;
     margin: 0 auto;
     height: 196px;
@@ -176,7 +175,7 @@ header {
 }
 
 .hero-3 {
-    background-image: url(../imges/qora\ bgraund.png);
+    background-image: url(../imges/qorabgraund.png);
     background-repeat: no-repeat;
     margin-top: 177px;
 }
@@ -384,4 +383,35 @@ footer {
 
 .logo--1 {
     margin: 0 24px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and ( -o-min-device-pixel-ratio: 2/1),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+    .hero {
+        background-image: url(../imges/2003.jpg);
+    }
+    .hero-3 {
+        background-image: url(../imges/2005.png);
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: rgb(11, 8, 8);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(63, 63, 65);
+    border-radius: 2px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(5, 15, 5);
 }
