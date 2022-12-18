@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url(../fonts/Barlow-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url(../fonts/Fraunces_9pt-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999999999;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    padding: 45px 0;
+}
+
+.list__item {
+    margin-right: 40px;
+}
+
+.list__item a {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.item__a {
+    margin-right: 0;
+}
+
+.header {
+    background-image: url(../imges/Object.png);
+    padding: 137px 85px;
+}
+
+.header__title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 24px;
+    color: #FEFCF7;
+}
+
+.header__text {
+    max-width: 445px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and ( -o-min-device-pixel-ratio: 2/1),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+    .header {
+        background-image: url(../imges/Object@2x.png);
+    }
+    .hero-top {
+        background-image: url(../imges/Bitm2x.png);
+    }
+    footer {
+        background-image: url(../imges/Maskfooter2x.png);
+    }
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 168px;
+    margin-bottom: 250px;
+}
+
+.hero__title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.hero__text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 32px;
+    max-width: 540px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.hero-top {
+    background-image: url(../imges/Mask.png);
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 168px;
+}
+
+.hero-right {
+    padding-left: 85px;
+    padding-right: 92px;
+    padding-top: 100px;
+    padding-bottom: 176px;
+}
+
+.hero-top__title {
+    max-width: 517px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.hero-top__text {
+    max-width: 540px;
+    margin-top: 32px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.logo2 {
+    position: absolute;
+    top: -76px;
+    right: 70px;
+}
+
+.hero-bottom__list {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 85px;
+    margin-bottom: 168px;
+}
+
+.hero-bottom__list--item {
+    margin-right: 108px;
+}
+
+.hero-bottom__title {
+    margin-top: 168px;
+    padding-left: 85px;
+    margin-bottom: 72px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.item__title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 45px;
+    padding-bottom: 24px;
+}
+
+.item__leni {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    max-width: 80px;
+}
+
+footer {
+    background-image: url(../imges/Maskfooter.png);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foter {
+    display: flex;
+    align-items: center;
+}
+
+.foter__list {
+    margin-left: 102px;
+}
+
+.logo7 {
+    margin: 0 24px;
+}
